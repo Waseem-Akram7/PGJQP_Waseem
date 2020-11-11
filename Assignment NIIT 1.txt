@@ -1,0 +1,376 @@
+//DISPLAY YOUR NAME PROGRAM
+
+#include<iostream>
+using namespace std;
+class my_name
+{
+	
+	public:void name()
+		{
+		cout<<"My name is Waseem";
+		
+	}
+};
+int main()
+{
+	my_name n1;
+	n1.name();
+}
+**********************************************************************************************************************
+//DISPLAY YOUR FRIEND NAME
+
+#include<iostream>
+using namespace std;
+class my_fname
+{
+	
+	public:void name()
+	{
+		cout<<"My friend name is Sai Kishore\n";
+		cout<<"mithun";
+	
+		
+	}
+};
+int main()
+{
+	my_fname n1;
+	n1.name();
+	
+}
+
+*****************************************************************************************************************************
+// WAP TO PRINT INTEGER
+
+#include<iostream>
+using namespace std;
+class integer
+{
+	int num1;
+	public:void number()
+	{
+		cout<<"Enter the Number=";
+		cin>>num1;
+		cout<<"The entered number is="<<num1;
+	}
+};
+int main()
+{
+	integer n1;
+	n1.number();
+}
+
+***********************************************************************************************************************************
+//WAP TO DECLEAR VARIABLE OF EACH DATA TYPE AND PRINT THEIR VALUES
+
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a;
+	char b;
+	float c;
+	
+	cout<<"Enter the Number=";
+	cin>>a;
+	cout<<"the entered number is="<<a<<"\n";
+	
+	cout<<"Enter a character";
+	cin>>b;
+	cout<<"The entered character is="<<b<<"\n";
+	
+	cout<<"Enter a Number";
+	cin>>c;
+	cout<<"The entered number is="<<c<<"\n";
+}
+
+************************************************************************************************************************************8
+//WAP TP CALCULATE INCREMENT OF A NUMBER BY 1
+
+#include<iostream>
+using namespace std;
+class test
+{
+	int num;
+	public:void inc()
+	{
+		cout<<"enter a number";
+		cin>>num;
+		cout<<"Result is "<<num+1;
+	}
+};
+int main()
+{
+	test n1;
+	n1.inc();
+}
+
+***************************************************************************************************************************************
+//WAP TP CALCULATE INCREMENT OF A NUMBER BY 7
+
+#include<iostream>
+using namespace std;
+class test
+{
+	int num;
+	public:void inc()
+	{
+		cout<<"enter a number";
+		cin>>num;
+		cout<<"Result is "<<num+7;
+	}
+};
+int main()
+{
+	test n1;
+	n1.inc();
+}
+
+****************************************************************************************************************************************
+//WAP TO CALCULATE THE ADDITION OF 2 NUMBERS
+
+#include<iostream>
+using namespace std;
+class add
+{
+	int num1,num2,result;
+	public:void adding()
+	{
+	
+	cout<<"Enter the first number=";
+	cin>>num1;
+	cout<<"Enter the second number=";
+	cin>>num2;
+	result=num1+num2;
+	cout<<"The result is="<<result;
+}
+};
+int main()
+{
+	add n1;
+	n1.adding();
+}
+
+***************************************************************************************************************************************
+//WAP TO CALCULATE THE MULTIPLICATION OF THREE NUMBERS
+
+#include<iostream>
+using namespace std;
+class mul
+{
+	int num1,num2,num3,result;
+	public:void multiply()
+	{
+	
+	cout<<"Enter the first number=";
+	cin>>num1;
+	cout<<"Enter the second number=";
+	cin>>num2;
+	cout<<"Enter the third number=";
+	cin>>num3;
+	result=num1*num2*num3;
+	cout<<"The result is="<<result;
+}
+};
+int main()
+{
+	mul n1;
+	n1.multiply();
+}
+
+***********************************************************************************************************************************88
+//WAP TO MULTIPLY TWO FLOATING POINT NUMBERS
+
+#include<iostream>
+using namespace std;
+class decimal
+{
+	float num1,num2,result;
+	public:void dec()
+	{
+		cout<<"enter the first number=";
+		cin>>num1;
+		cout<<"enter the second number=";
+		cin>>num2;
+		result=num1*num2;
+		cout<<"result is"<<result;
+	}
+};
+int main()
+{
+	decimal n1;
+	n1.dec();
+}
+
+***************************************************************************************************************************************
+//WAP TO CALCULATE THE AREA OF SQUARE
+
+#include<iostream>
+using namespace std;
+class area
+{
+	float side,area;
+	public:void areaofsquare()
+	{
+		cout<<"Enter the first length=";
+		cin>>side;
+		
+		
+		cout<<"The area of square is="<<side*side;
+	}
+	
+};
+int main()
+{
+	area n1;
+	n1.areaofsquare();
+}
+
+****************************************************************************************************************************************
+//WAP TO CALCULATE PERIMETER AND AREA OF RECTANGLE
+
+#include<iostream>
+using namespace std;
+class rectangle
+{
+	float length,width,breadth;
+	public:void rec()
+	{
+		cout<<"enter the length=";
+		cin>>length;
+		cout<<"enter the width=";
+		cin>>width;
+		cout<<"Perimeter of rectangle is"<<2*length+2*width<<"\n";
+	
+       cout<<"Enter the length=";
+	   cin>>length;
+	   cout<<"enter the breadth=";
+	   cin>>breadth;
+	   cout<<"Area of rectangle is"<<length*breadth;	
+	
+    }
+};
+int main()
+{
+	rectangle n1;
+	n1.rec();
+}
+
+************************************************************************************************************************************
+//WAP TO CALCULATE THE AREA OF CIRCLE
+
+#include<iostream>
+using namespace std;
+class area
+{
+	float radius,area;
+	public:void areaofcircle()
+	{
+		cout<<"Enter the radius of circle=";
+		cin>>radius;
+		area=3.14*radius*radius;
+		cout<<"Area of circle is="<<area;
+	}
+};
+int main()
+{
+	area n1;
+	n1.areaofcircle();
+}
+
+***********************************************************************************************************************************
+//WAP TO CALCULATE THE SIMPLE INTEREST
+
+#include<iostream>
+using namespace std;
+class interest
+{
+	int p,t,r,i;
+	public:void simpleinterest()
+	{
+		cout<<"Enter the value for p=";
+		cin>>p;
+		cout<<"Enter the value for t=";
+		cin>>t;
+		cout<<"Enter the value for r=";
+		cin>>r;
+		i=(p*t*r)/100;
+		cout<<"The simple interest is ="<<i;
+		
+		
+	}
+};
+
+int main()
+{
+	interest n1;
+	n1.simpleinterest();
+}
+
+************************************************************************************************************************************8
+//WAP TO FIND THE AVERAGE OF 5 NUMBERS
+
+#include<iostream>
+using namespace std;
+class test
+{
+	int n1,n2,n3,n4,n5;
+	float sum,average;
+	public:void averageofnumbers()
+	{
+		cout<<"enter first number=";
+		cin>>n1;
+		cout<<"enter second number=";
+		cin>>n2;
+		cout<<"enter third number=";
+		cin>>n3;
+		cout<<"enter fourth number=";
+		cin>>n4;
+		cout<<"enter fifth number=";
+		cin>>n5;
+		sum=n1+n2+n3+n4+n5;
+		average =sum/5;
+		cout<<"The average of numbers is="<<average;
+	}
+};
+int main()
+{
+	test f1;
+	f1.averageofnumbers();
+}
+
+*********************************************************************************************************************************
+//WAP TO FIND THE SIZE OF DATA TYPE IN C++
+
+#include<iostream>
+using namespace std;
+class size
+{
+	char a;
+	int b;
+	float c;
+	double d;
+	public:void sizeofchar()
+	{
+		cout<<"size of char="<<sizeof(a)<<"\n";
+		cout<<"size of int="<<sizeof(b)<<"\n";
+		cout<<"size of float="<<sizeof(c)<<"\n";
+		cout<<"size of double="<<sizeof(d)<<"\n";
+		
+	}
+};
+int main()
+{
+	size n1;
+	n1.sizeofchar();
+}
+
+********************************************************************************************************************************8
+//WAP TO DISPLAY THE FOLLOWING PATTERN
+
+#include<iostream>
+using namespace std;
+int main()
+{
+	cout<<"I"<<"\t"<<"LIKE"<<"\n"<<"\t"<<"\t"<<"c++"<<"\t"<<"programming";
+}
