@@ -1,0 +1,23 @@
+#include<iostream>
+using namespace std;
+class ascii
+{
+	int num;
+    char c;
+    public:void alphabets()
+    {
+	
+   cout<<"Enter the character=";
+   cin>>c;
+   num=c;
+   
+   cout<<"Ascii value is="<<num<<"\n";
+}
+};
+int main()
+{
+	ascii a1;
+	a1.alphabets();
+	a1.alphabets();
+	a1.alphabets();
+}
