@@ -1,0 +1,43 @@
+#include<iostream>
+using namespace std;
+class uptolow_lowtoup
+{
+	char ch;
+	
+	public:void viceversa()
+	{
+		cout<<"Enter the character=";
+		cin>>ch;
+		
+	if((ch>='A' && ch<='Z')  || (ch>='a' && ch<='z'))
+	{
+			
+		if(ch>='A' && ch<='Z')
+		{
+			ch=ch+32;
+			cout<<"After conversion the value is="<<ch<<"\n";
+		}
+		else if(ch>='a' && ch<='z')
+		{
+			ch=ch-32;
+			cout<<"After conversion the value is="<<ch<<"\n";
+		}
+		
+		else
+		{
+			cout<<"invalid character"<<ch<<"\n";
+			
+		}
+	}
+	
+	
+	
+	
+}
+};
+int main()
+{
+	uptolow_lowtoup a1;
+	a1.viceversa();
+
+}
