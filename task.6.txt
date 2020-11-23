@@ -1,0 +1,4 @@
+Difference between constructor and method?
+ans:-constructor is used to initilize an object,method is used to exhibits functionality of an object.
+constructor are invoked implicitly,method are invoked explicitly.
+constructor does not return any value,method may return values.

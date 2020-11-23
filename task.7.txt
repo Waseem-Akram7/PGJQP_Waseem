@@ -1,0 +1,4 @@
+USE OF STSTIC KEYWORD
+
+ans:-static variables are initialized only once,the variable or data members ,functions can not be modified again.
+static functions can be called directly using class name.

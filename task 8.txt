@@ -1,0 +1,7 @@
+ACCESS SPECIFIERS
+ans:-The object oriented approach hides the unnecessary details of a program and shows only the essential characteristic of the program to the user this process is known abstraction.
+when we build a software lots of information you want to hide from user,that information is not directly required by user,irrelevant information is being hidden from the user is encapsulation.
+
+different access specifiers are:public:access specifier allows a class to expose its memeber variables and member function to other function and objects.
+                                private:access specifier allows a class to hide its member variable and member function from other class object and function. 
+                                protected:like as private access specifier also allows a class to hide its member function and member variable from the other class objects and functions.
